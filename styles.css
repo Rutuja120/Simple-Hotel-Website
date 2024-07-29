@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section {
+    background-image: url('tip top hotel pune.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.book-button,
+.know-button {
+    background-color: aqua;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover,
+.know-button:hover {
+    background-color: #00ced1;
+}
+
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-section h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.about-us {
+    margin-bottom: 20px;
+}
+
+.amenities h3 {
+    margin-top: 20px;
+}
+
+.amenities ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
